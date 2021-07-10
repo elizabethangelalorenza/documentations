@@ -1,0 +1,200 @@
+Evolution X | UNOFFICIAL
+Build date: 03/07/2021
+
+====================================================================
+Credits:
+- Thanks to @kubersharma001 for his tree
+- Thanks to @setsumiko for his awesome kernel
+- Thanks to @fryevia for his help
+- Thanks to @GengKapak for their support
+- Thanks to all my tester
+
+====================================================================
+Device Changelog:
+- Initial Release
+- Chaldea Kernel as default
+- Compiled with Proton Clang
+- Increase call volume steps
+- Use correct gaming thermal
+- Add Adaptive Charging support
+- Add Battery Health overlay
+- Add LMKD configurations
+- Set dalvik heap configuration
+- Introduce raise to wake gesture
+- Introduce haptic feedback level adjustment
+- Adapt HapticUtils to app-level shared preferences
+- Many more
+
+====================================================================
+Kernel Changelog:
+- Merge Linux stable v4.14.238 (via google kernel-common)
+- Add several PM QoS improvement (from kerneltoast)
+- Revert some commit that overwork little CPUs
+- Add support for KCAL color control
+- Enable LED on Offline Charging
+- Enable writeback support for ZRAM
+- Restore FTrace support (For Android 11's app I/O prefetching)
+
+====================================================================
+ROM Changelog:
+- BrightnessController: tune the slider animation duration
+- Plugins: Don't show captions info tooltip
+- base: set scrolling friction to 0.006f
+- Consolidate LineageHardwareManager
+- DozeTriggers: Add provision to pulse without proximity check
+- FODCircleView/FODAnimation: Clean ups and improvements
+- Introduce 2.1 LiveDisplay interface with IAntiFlicker support
+- base: Add bool to enable/disable doze by default
+- fixup! CameraDeviceClient: fix recognition of Y16 format
+- fixup! Introduce anti flicker mode in LiveDisplay
+- livedisplay: 2.1: Fix interfaces order
+- sepolicy: Add uclamp file nodes to proc_sched
+- sepolicy: Allow permissive backuptools on user builds
+- sepolicy: Allow vendor_init to set proc_sched sysfs
+- sepolicy: Another theme_prop denials
+- sepolicy: Fix some ActivityManager denials
+- sepolicy: Optionally build sepolicy_freeze_test
+- Add Zygotehooks.indefiniteThreadSuspensionOK
+- Add a better getLastQueuedBuffer
+- Add zygote native fork loop
+- Allow Seamless rotation while PIP is active
+- Camera: Master callback mode support for MCX raw
+- Drop the maximum recommended log size from 16MiB to 8MiB
+- Evolver: Introduce Android 12 Style Switches
+- Fix PixelCopy & BQ crop
+- PixelPropsUtils: Make build property spoofing more reliable
+- Upstream ART improvements
+- Zygote: Add Arm pointer authentication keychange support
+- codec2 codecs: always specify range of buffers
+- config: Strip off some debug packages
+- core: Remove overscroll shadow for all
+- vendor: Include makefile with art definitions
+- AntiFlickerTile: Fix error in handleRefreshState
+- LockIcon: Fix drawable log warning
+- Settings: Export the gravity of the fingerprint enroll animation
+- custom_apns: Add double quote in custom APN name check
+- SystemUI: Properly align owner info to the 3 left aligned clocks
+- FODCircleView: Improve position update
+- QSCustomizer: Properly apply changes with header image enabled
+- QSDetail: Fix QS detail panel with header image enabled
+- Revert to original Pixel Launcher
+- SystemUI: QS: Decrease vertical padding between QS tiles
+- fixup! DisplayPowerController: make brightness ramp rate overlay-able
+- AmbientDisplay: Unregister proximity when screen off FOD is active
+- DozeTriggers: Update setListening usage
+- FODCircleView: fixup AOD fingerprint support
+- Make Volume Panel divider transparent
+- PowerManager: Add proximity check on wake feature
+- ScreenshotTile: Make default state inactive
+- ScreenshotTile: Use secondary label to indicate mode
+- SystemUI: Fix GamingModeTile long press
+- SystemUI: handle camera launch gesture from keyhandler
+- SystemUI: Improve ScreenRecord Dialog layout
+- Update MIUI White FOD icon to latest
+- base: lockscreen: Fix left custom shortcut always launching Dialer/Contacts
+- fixup! Clock: Align owner info as per the clock style
+- Disallow certain power menu items while in lock task mode
+- LiveDisplay: Mark all pending intents as immutable
+- Settings: Allow changing face unlock method when locked
+- Upstream OTA Updater app changes from PE
+- Replace redundant nav gesture options with Immersive Navigation
+- Settings: Remove back swipe deadzone feature (breaks gestures)
+- Use EVOLUTION_FINGERPRINT to signal OTA upgrades
+- AppLock: Don't trigger if starting new intent of current running package
+- AppLock: Improve strings and cleanup
+- AppLock: Update tasks snapshot when needed
+- IconPack{Kai,Victor}: Fix clock icon
+- SystemUI: Improve pocket mode layout
+- VolumeDialog: Fix touch area on captions and ringer button when on landscape
+- fixup! base: SystemUI: fix volume dialog issue
+- CameraService: Default to HAL1 for OPCam if not specified
+- Evolver: Add AlarmsBlocker
+- Evolver: Add WakelockBlocker
+- Evolver: Rework Alarm & Wakelock blocker fragments
+- Removing dead code from Telephony which uses wakelock
+- Settings: Remove DSU Loader if unsupported
+- SystemUI: Make clock layouts aware of the media playing state
+- Upstream QTI BT changes from LA.QSSI.11.0.r1-12300-qssi.0 CAF tag
+- soong: Whitelist locale
+- Adaptive Charging: Make it optional
+- Evolver: Allow hiding FOD on doze
+- Filter GalleryDatab*
+- Filter out QTI performance spam
+- Modifying /dev/memcg permissions
+- Remove Font changes unrelated to Carbon's FontService
+- Set /system/etc/init.d/* permissions
+- Set permissions on /system/addon.d/ and files within
+- Shut up camera and wcnss debug output
+- Silence spammy logs from camera blobs (AEC_PORT and mm-camera)
+- adb_root: Make encryption action an argument to mkdir
+- add generic symlink to access userdata sysfs
+- cameraservice: Avoid calling getSystemCameraKind if the camera was not mapped yet
+- config: Remove exfat tools
+- debuggerd: add Evolution X version to tombstones
+- fixup! DozeSensors: Only use proximity sensor if supported
+- healthd: Add support for HVDCP_3P5 chargers
+- rootdir: init.rc: use default dirty writeout policy
+- set /system/etc/init.d/* permission
+- Evolver: Hide LS blur option if homescreen and LS wallpaper are different
+- IconPack{Sam,Victor}: Inverse vol collapse/expand anim path data
+- Upstream WFD fixes in frameworks/av
+- SystemUI: set default of NAV_BAR_HANDLE_SHOW_OVER_LOCKSCREEN to false
+- bionic: Enable -O
+- kernel: Pass absolute path for KCONFIG_ALLCONFIG
+- libm: Support -ffp-contract=fast
+- Completely nuke Lockscreen Charging info feature
+- Evolver: Introduce OS navbar styles
+- KillZramBackingDevice: Return immediately if backing_dev is none
+- MiuiCompactPanel: Add upstream changes
+- Upstream some Google fixes from master branch
+- VolumePanel: Add changes for live volume steps
+- VolumePanel: Add upstream changes
+- plugins: Fix AOSPExpanded plugin crash with Swift Installer
+- plugins: Fix infinite expanding and apply unlinking to MIUI panel
+- Add exfat utilities for mkfs and fsck
+- Evolver: Add lock screen background blur feature
+- Evolver: Add Status bar notification & music ticker feature
+- SystemUI: Add missing updateChargingIndication after r38 merge
+- sepolicy: Fix rest of the theme_prop denials
+- Evolver: Remove feature allowing to disable Night Light when FOD is on screen
+- Evolver: Separate Display Cutout into its own category and hide on non-notch devices
+- FODCircleView: Restore DIM_BEHIND and dim amount to 0.0f on base view
+- Settings: Add switch last app to gesture actions
+- SystemUI: Re-enable privacy indicators
+- phone: Add option for setting device phone number
+- Merge June 2021 security patches
+- PixelPropsUtils: Update to June 2021 fingerprint
+- Settings: use framework text colors for SwitchBar
+- gapps: Update from RQ3A.210605.005
+- healthd: Add support for HVDCP_3P5 chargers
+- pixelstyle: config: Enable DRM service
+- version: Bump to 5.8 Pinnacle
+- FodAnimationResources: Update OP Cosmos animation
+- Settings: LiveDisplay: Add color mode preview from AOSP Settings
+- Settings: Use MD2 icon for Playstore
+- SystemUI: Add Cellular tile icon from OOS
+- build: check_boot_jars: Whitelist lineage LiveDisplay
+- config: Combine priv app permission files into one
+- config: Re-organize props
+- FODCircleView: Fix position if cutout is hidden
+- camera: Workaround for GCC-compiled HAL3 driver
+- Settings: backup: add back-arrow to actionbar
+- config: Actually disable strict mode for non eng builds
+- core: check if the logical light is null before using it
+- Watchdog: increase default timeout by 30 seconds
+- Watchdog: run emergency sync before killing system
+- Add madvising of .odex, .vdex and .art files
+- Bluetooth: Reimplement SBC Dual Channel in a saner way
+- Explicitly make SBC Dual Channel an optional (HD) codec
+- FaceUnlock: Drop lockouts completely
+- Make releaseSomeActivities() a oneway call
+- MediaActionSound: Don't enforce playback of audio
+- PixelPropsUtils: Switch to Marlin for Google Photos
+- gms: Include Pixel-specific apps only for the Pixels
+- gms: Make carrier-related apps optional
+- sepolicy: legacy: Add write permission to proc file system
+- sepolicy: public/file.te: add 'allow proc_net proc:filesystem associate'
+- vendor: apns: Add IPV4V6 to O2 Germany
+- Evolver: Bring back Lock screen charging info feature
+- Evolver: LockscreenCharging: Bring in °F/°C toggle
+- clock: Improve Type (Alt) clock
