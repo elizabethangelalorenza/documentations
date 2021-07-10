@@ -1,0 +1,61 @@
+Evolution X | UNOFFICIAL
+Build date: 10/07/2021
+
+====================================================================
+Credits:
+- Thanks to @kubersharma001 for his tree
+- Thanks to @setsumiko for his awesome kernel
+- Thanks to @fryevia for his help
+- Thanks to @GengKapak for their support
+- Thanks to all my tester
+
+====================================================================
+Device Changelog:
+- Chaldea Kernel as default
+- Compiled with Proton Clang
+- Add LZ4 and Zstd as option for ZRAM compression methods
+- Migrate from LZO to Zstd for the default ZRAM compression
+- Add Steam controller support
+- Fix some VLA usage that detected on AOSP Clang 11
+
+====================================================================
+ROM Changelog:
+- Bumped to 5.9 | Immortal
+- Merge July Security Patches
+- PixelPropsUtils: Update to July 2021 fingerprint
+- FODCircleView: Remove duplicated FLAG_WATCH_OUTSIDE_TOUCH
+- FODCircleView: Set dim behind fod base layer
+- Fonts: Add OnePlus Sans
+- Fonts: Update Google Sans and OnePlus Slate
+- Remove WFD upstream changes
+- Settings: Update font picker title string
+- CarSystemUI: Pass FODCircleView to StatusBar constructor
+- DataSwitchTile: collapse notification panel onClick
+- FODCircleView: Hide if fingerprint detection stops
+- Settings: Remove empty category from Security Settings
+- SystemUI: Give network traffic more padding
+- base: prevent that double tap to sleep triggers panel expand
+- SystemUI: Don't enable FOD when strong auth is required
+- Use Asus Stitchimage as default screenshot service
+- AppErrorDialog: Add content type header when making POST request to pasty
+- SystemUI: BatteryMeter: Fix padding for % on left
+- SystemUI: Fix battery percent padding
+- SystemUI: Move percentage to left of battery
+- config: Do not force iorap by default
+- Evolver: Nuke Lock screen shortcut feature
+- Remove zygote related changes
+- AndroidSClockController: fix IndexOutOfBoundsException
+- IconPack{Circular,Filled}: Use the same notification and ring icons as in settings
+- IconPackRounded: Use correct icon for notification and ring volume
+- OmniStyle: Add GoT header pack
+- OmniStyle: Added 'Colorful' headers
+- SystemUI: Add a config to show correct VoLTE/VoWiFi icons
+- SystemUI: BrightnessSlider: Scale animation duration with defined BrightnessRampRate
+- SystemUI: Fix showing duplicated charging status after r38 merge
+- services: BrightnessAnimator: Make ramp rate non-linear for very low values
+- Add Android S Clocks
+- Add support to see if there are visible notifications in ClockPlugin
+- Add support to Slice in ClockPlugin
+- Introduce Fluid V2 lock clock
+- Settings: Move back Evolution X version to firmware version fragment
+- SystemUI: Add OnePlus Roman, Minimal and Numbers clock styles
