@@ -1,0 +1,116 @@
+Evolution X 5.9.1 | UNOFFICIAL
+Build date: 20/08/2021
+
+====================================================================
+Credits:
+- Thanks to @SebaUbuntu for OSS trees
+- Thanks to @kubersharma001 for his trees
+- Thanks to @nullxception for his awesome kernel
+- Thanks to @fryevia, @alanndz, and @Vrasteizz for his help
+- Thanks to @GengKapak for their support
+- Thanks to all my tester
+
+====================================================================
+Device Changelog:
+- Initial OSS based (thanks to @kubersharma001 for trees)
+- Add Blur option (disable by default)
+- Using Chaldea Kernel as default
+- Compiled with Proton Clang
+
+====================================================================
+ROM Changelog:
+- Bumped to 5.9.1 | Infinity
+- Merge August Security Patches
+- AndroidSDP3ClockController: fix IndexOutOfBoundsException
+- AppLock: Fix biometric prompt disappearing if app launched from resolver
+- AudioSystem: startAudioSource: ensure port handle initialized
+- BatteryMeterView: make sure to update battery text
+- ClockertinoClock: Add time refresh capabilities on AoD
+- DataUsageView: Improvements and clean up
+- Evolver: Add Rounded Corner styles
+- Evolver: Add simple fade filter to the media artwork
+- Evolver: Introduce Brightness slider styles
+- Evolver: Re-implement toggle to hide lock icon on lock screen
+- Evolver: Replace media notification background with artwork
+- FODCircleView: Always update FODAnimation position
+- Improvements to QS player background artwork
+- KeyStore: Prevent NPE with trust manager service
+- LockIcon: Don't center on bouncer
+- MediaCarouselController: update background when settings are changed
+- Reduce NotificationHistoryDatabase logspam
+- Settings: Add preference for preferred refresh rate
+- Settings: ColorBucketPreference: Nuke SettingsObserver
+- Settings: Create new preview for dark theme styles
+- Settings: Move refresh rate settings into a separate fragment
+- Settings: Update Security Settings drawables from Android 12
+- Settings: display: Add wake on plug switch
+- SystemUI: Add ability to change font style for new clocks
+- SystemUI: Fix volume panel animation when on left side
+- SystemUI: Left align AOD notifications when required
+- SystemUI: ditch unnecessary scaling in media notification background
+- SystemUI: overlay statusbar nfc icon in oos icon pack
+- TtsEngines: avoid crashes caused by null engine name
+- Update translations
+- VibratorService: bypass AppOps check
+- ZipUtils: use FileChannel#size
+- base: Match NFC statusbar icon with QS one
+- base: Set ic_avatar_user and ic_avatar_guest_user to follow system accent
+- display: Make Night Light transition more gradual
+- fixup! SystemUI: Left align owner info on some clocks
+- fixup! keyguard: Introduce Android 12 ShapeShift clock
+- keyguard: Fix null text on 12 clock after dismissing media
+- keyguard: Introduce new Android 12 clock
+- keyguard: Left align lock icon when required
+- overlays: Add an OxygenOS icon pack
+- require unlocking to use hotspot quick tile
+- require unlocking to use work mode tile
+- soong: move header override to compiler.go
+- telephony: Make IMS method updateToState accessible
+- telephony: show ICCID by default for all
+- vendor: Remove OPScreenRecord
+- AccentUtils: Improve code
+- ColorBucket: Nuke Clear Spring style
+- Do not show charging animation when disconnecting
+- Evolver: Cleanup and improvements
+- Graphics: Fix NPE on GradientDrawable
+- MediaResume: Set it to 0 by default to avoid UI glitch
+- MiuiCompact Panel: Add alarm volume slider
+- PixelPropsUtils: Spoof Pixel XL for Samsung wearables
+- PixelPropsUtils: Update to August 2021 fingerprint
+- QS: RebootTile: Remember last mode
+- Settings: Add Android 12 search bar style toggle
+- Settings: Add vibration patterns from OOS, Intensities and In-call Feedback
+- Settings: Bring back old nav gesture options
+- Settings: Move custom vib pattern to its own preference
+- Settings: Respect default vibration strength
+- Settings: Update vibration patterns and add haptic feedback intensity
+- SettingsProvider: use READ_DEVICE_CONFIG permission
+- SystemUI: Add time refresh capabilities for S clock controllers
+- SystemUI: Fix NPE on Volume panel plugins
+- SystemUI: NetworkTraffic: Add notch check and allow devices to override
+- SystemUI: NetworkTraffic: Minor refinements
+- SystemUI: NetworkTrafficSB: Reduce font size a bit
+- SystemUI: Reduce status bar network speed margins
+- SystemUI: Refresh QS page indicator layout when number of pages changes
+- SystemUI: Remove unnecessary battery meter view impl in keyguard statusbar
+- Telecomm: Update ringer vibration patterns
+- Telecomm: Use EFFECT_CLICK for vibrate on call connect
+- base: Improve FPS Info output formatting and performance
+- fixup! Charging sounds
+- fixup! Telecomm: In-call vibration haptics options
+- fonts: Fix reference to Noto Sans Javanese
+- BatteryMeterView: Fix logcat warning spam
+- Bluetooth: Add option to change eSCO Transport Unit Size to 16
+- CarSystemUI: Exclude FODCircleViewImpl from UI components
+- Cleanup Zygote and USAP leftover changes
+- DataSwitchTile: Improve the code
+- Evolver: Turn off QS battery estimate by defaultDrop the O_NOFOLLOW flag
+- OosPanel, P404Panel: Add missing style fallback
+- PrivacyChip: Do not change view on expand
+- Restore "bypass lockscreen after face unlock" preference
+- Revert blur-related changes in frameworks/native
+- ShapeShiftPanel: Add alarm volume slider
+- ShapeShiftPanel: Redesign output switcher UI
+- SystemUI: VolumeDialogImpl: Fix volume panel permanently visible
+- Update translations
+- settingslib: Tile: Add more checks if mMetaData is null
