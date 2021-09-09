@@ -1,0 +1,128 @@
+Evolution X 5.9.2 | UNOFFICIAL
+Build date: 08/09/2021
+
+====================================================================
+Credits:
+- Thanks to @SebaUbuntu for OSS trees
+- Thanks to @kubersharma001 for his trees
+- Thanks to @nullxception for his awesome kernel
+- Thanks to @fryevia, @alanndz, and @Vrasteizz for his help
+- Thanks to @GengKapak for their support
+- Thanks to all my tester
+
+====================================================================
+Device Changelog:
+- Disable CPU hotplug data parsing on mi_thermald
+- RefreshRateTile: Wire-up preferred refresh-rate value too
+- Add summary for custom haptic feedback
+- Improve FooterPreference layout
+- Add some missing WFD blobs
+- Decrease Minimum screen brightness to 1/255
+- Add Notch Bar Killer overlay
+- Fixes lags when scrolling in YouTube, Spotify, and more
+- Fixes lags when using PiP
+- Fixes lags when using 90Hz refresh rate
+- Enable config_setColorTransformAccelerated
+- Enable freeform windows
+- Switch to armv8-2a in both ARCH_VARIANT
+- Optimize native executables for Cortex-A76 CPU
+- Reorganize device parts related init setup
+- Update pt-BR translation
+- Fix theme issues
+- Fix "dirac_hifi_enable_title" string
+- Add summary for Clear speaker and Dirac
+- Make HelpDialogFragment As Public
+- Add kernel checking to the HBM and CABC mode switcher
+- Add support for LCD HBM and CABC
+- Add icon for Haptic feedback SeekBar
+- Fix icon behavior in custom SeekBarPreference
+- Update custom Seekbar layout
+- Adjust Haptic feedback title and summary
+- Update SDK version
+- Remove Refresh Rate filter validation
+- Fix Refresh-rate Tile issues on variable refresh-rate setup
+- Rewrite Refresh Rate Tile for system-wide settings
+- Introduce Refresh Rate QS tile
+- Don't apply thermal preset when GameMode is active
+- Add script for exTHmUI's GameMode performance control
+- Allow system apps to read measured_fps node
+- Allow system to read measured_fps node
+- Adapt HapticUtils to app-level shared preferences
+- Introduce haptic feedback level adjustment
+- Implement SeekBarPreference
+- Introduce raise to wake gesture
+- Add support for FPS Info tile
+- Add CPU Info overlay
+- Set dalvik heap configuration conditionally
+- Enable Battery Health support
+- Add Adaptive Charging support
+
+Kernel Changelog:
+- Using Chaldea Kernel
+- Merge linux-stable 4.14.246
+- Merge latest f2fs-stable from jaegeuk/f2fs-stable/linux-4.14.y
+- Compiled with AOSP Clang
+- Add support for PS5 DualSense controller
+- Apply proper fix for smb5 flash trigger spam
+- Disable several unnecessary config and modules
+- Disable un/likely optimization for now (need more work on it)
+- Move to 100 Hz timer interrupt
+- Readjust sdFAT's selinux label
+- Reenable PMU for profiling purposes
+- Revert back to HZ 100
+- Rework fixes for NaN/RTT issues
+
+====================================================================
+ROM Changelog:
+- Bumped to 5.9.2 | Sanctuary
+- Merge September Security Patches
+- PixelPropsUtils: Update to September 2021 fingerprint
+- PixelPropsUtils: Spoof Pixel 2 for GMS (aka SafetyNet fix)
+- PixelPropsUtils: Don't spoof the device as a Pixel for Pixel Buds
+- PixelPropsUtils: Add galaxy watch 4 plugin to spoof list
+- Check for vintf compatibility early in generation process
+- GamingMode: Hide danmaku container immediately when config is changed
+- GamingMode: Hide floating button after periods of time
+- GamingMode: Limit the button coordinate to the inside of screen only
+- Camera: fix possible nullptr on setCallbacks
+- PowerUI: Mute logcat spam
+- SUPL: Don't send IMSI / Phone number to SUPL server
+- Settings: Adjust one shot auto-brightness strings
+- Settings: Allow to disable permissions hub
+- Settings: Default device name to marketname if available
+- Settings: notifications: Add title for Advanced settings
+- SettingsProvider: Set device name to marketname if available
+- SystemUI: Limit Keyguard charging stats updates
+- WifiApConfigStore: Use device model as default hotspot SSID
+- base: SystemUI: add delete action for partial screenshot notification
+- blur: Increase max number of render passes
+- btif: Use marketname as BT device name if available
+- build: Warn about prebuilt apk in PRODUCT_COPY_FILES
+- sepolicy: Expose faceunlock prop for all
+- sepolicy: Expose hal1 camera list prop
+- wifi: Use marketname as hotspot SSID if available
+- APN: Fix Three UK / FreedomPop APN (MCC 234 MNC 20)
+- AdaptiveCharging: Make sure resume level is lower than suspend level
+- Add IPv6 handling to dns cleartext allowlist
+- Evolver: GamingMode: Add option for customizing menu opacity
+- Evolver: Switch to exTHmUI’s GamingMode support
+- Evolver: Update MIUI FOD animation names
+- Fix reading /proc/locks when lock is held by another process
+- MediaControlPanel: Slight rework on media art player
+- Settings: Add Cloudflare DNS as a private DNS provider
+- Settings: Add support for global cleartext penalties
+- Settings: DT2Doze: Move Preference to gesture settings
+- Settings: Fix A12 Searchbar Style layout
+- Settings: Private DNS: add adguard DNS to private DNS
+- SystemUI: Disable all-caps for smart reply button text
+- SystemUI: Fix overlays resetting on every reboot
+- SystemUI: Make A12 DP3 clock bigger
+- SystemUI: Remove QS drag handle
+- SystemUI: export screenrecord.RecordingService for GamingMode
+- SystemUI: move RecordingService into main process
+- TwilightService: Save and use last fetched location
+- base: SystemUI: halt LyricTicker after statusbar lyric disabled
+- core: Wipe package cache on upgrade even on user build
+- fixup! Keyguard: Allow disabling fingerprint wake-and-unlock
+- overlays: overlay brightness thumb in oos icon pack
+- overlays: sync some dimens in oos pack
