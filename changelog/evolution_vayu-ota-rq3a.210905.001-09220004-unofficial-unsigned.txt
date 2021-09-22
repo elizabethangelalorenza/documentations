@@ -1,0 +1,68 @@
+Evolution X 5.9.2 | UNOFFICIAL
+Build date: 22/09/2021
+====================================================================
+Credits:
+- Thanks to @SebaUbuntu for OSS trees
+- Thanks to @kubersharma001 for his trees
+- Thanks to @nullxception for his awesome kernel
+- Thanks to @fryevia, @alanndz, and @Vrasteizz for his help
+- Thanks to @GengKapak for their support
+- Thanks to all my tester
+====================================================================
+Device Changelog:
+- Update ROM source
+- Update sepolicy from sm8250-common
+- Update blobs from MIUI V12.5.4.0.RJUMIXM
+- Sync some props from MIUI V12.5.4.0.RJUMIXM
+- Sync vendor.display.config* package definition as per stock
+- Add KCAL Support
+- Switch to AOSP WFD Implementation
+- Enable AOSP SIM toggle
+- Enable performance profile support
+- Enable GBoard rounded corners
+- Disable debug.sf.latch_unsignaled
+- Disable metadata dynamic_fps 
+- Disable UBWC
+- Allow all 4 rotations
+- Make the UI smoother
+- Adjusting screen timeouts
+- Set config_wifiDisplaySupportsProtectedBuffers to false
+- Update RU and UK translation
+- Back to vayu FP build and desc. 
+
+Kernel Changelog:
+- Using Chaldea-Raiden as default kernel
+- Fully rebased over CAF Tag LA.UM.9.1.r1-11100-SMxxx0.0 with Android Common Kernel merged-in
+- Update touch firmware
+- So many changes on kernel stuff and differs from previous release
+- Compiled with Proton clang
+====================================================================
+ROM Changelog:
+- AndroidSClocks: Beautify them
+- Disallow click to partial screenshot right after screenshot is taken
+- FOD: Use sharper fod yellow pressed icon
+- GestureNavigationSettings: Fix default values
+- SMP: Reject pairing if public_key.x match
+- Settings: Don't show fp wake unlock preference for FOD devices
+- Statusbar brightness control: fix changes not happening
+- SystemUI: Change MediaPlayer margin to Android S style
+- SystemUI: Don't show charging animation if battery is charged
+- SystemUI: Enable three icon switching within QS DND tile
+- SystemUI: Redesign Media Player View
+- SystemUI: Unblock gestural navigation on clearScreenshot()
+- SystemUI: rework status bar burn-in protection controller
+- TaskSnapshotController: avoid NPE
+- base: use a double click effect for charging if there is no amplitude control support
+- fixup! SystemUI: Show bluetooth battery level when available
+- vendor: add OTA script to delete package cache
+- Evolver: Nuke Notifications/Power menu background opacity feature
+- Evolver: Update default FOD to A12 version
+- FOD: Remove color filter from fod icons
+- FOD: Use A12 fingerprint icon by default
+- Settings: Add Hotspot client manager from exTHmUI
+- Settings: Bring back 'Do not validate' option in CA certificate spinner
+- Settings: Privacy chip toggle requires SystemUI restart
+- Settings: Remove support for global cleartext penalties
+- gms: Update Calculator and Clock from A12 Beta 5
+- netd: add MAC address firewall
+- netd: fix: the order of firewallSetMACAddressRule api
