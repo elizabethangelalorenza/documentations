@@ -11,3 +11,4 @@
 
 ### Donate
  * [**PayPal**](https://www.paypal.me/destiny88end)
+ * [**Saweria**](https://saweria.co/destiny88end)
