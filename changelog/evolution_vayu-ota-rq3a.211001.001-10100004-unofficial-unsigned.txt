@@ -1,0 +1,68 @@
+Evolution X 5.9.3 | UNOFFICIAL
+Build date: 10/10/2021
+==================================================
+Credits:
+- Thanks to @SebaUbuntu for OSS trees
+- Thanks to @kubersharma001 for his trees
+- Thanks to @nullxception for his awesome kernel
+- Thanks to @fryevia, @alanndz, and @Vrasteizz for his help
+- Thanks to @GengKapak for their support
+- Thanks to all my tester
+==================================================
+Device Changelog:
+- Add CPU Temperature Overlay 
+- Drop libOmxSw* package definition
+- AOSP-ify RRO package names
+- Correct RRO package naming typos 
+- Set default Settings.Global.DEVICE_NAME according to MIUI
+- Add init to make Hide Magisk Better
+- Other small changes
+
+Kernel Changelog:
+- Using Chaldea-Raiden as default kernel
+- Upstreamed to 4.14.248
+- Compiled with Proton clang
+==================================================
+ROM Changelog:
+- Bumped to 5.9.3
+- Merged October Security Patch
+- BrightnessSynchronizer: make brightness tolerance overlay-able
+- FODCircleView: use onTimeChanged for burn-in protection
+- Fix google widget timing issue
+- KeyguardSlice: Fix ticker appearing for a split second on lockscreen
+- LockPatternView: Fix a11y+BiometricPrompt related OOB exception
+- SamsungHighlightclock: fix updating wallpaper color when wallpaper changes
+- SystemUI: NetworkTraffic: Remove notch check
+- SystemUI: fix volume dialog position on TV
+- VolumeDialogImpl: Prevent Ringer Mode from changing by volume slider on OnePlus devices
+- apns: Update APNs for Chinese carriers
+- EdgeBackGestureHandler: use tick instead of heavy tick for back gesture
+- FODCircleView: use onTimeChanged for burn-in protection
+- Fix some haptic issues with gestural navigation
+- GamingMode: Fix danmaku container layoutParam on config changed
+- GamingMode: Fix views obscuring other window that needs interaction
+- GamingMode: Mark date/time format strings as non-translatable
+- PixelPropsUtils: Remove some packages
+- Settings: Improve A12-styled Search bar layout
+- Settings: Refactor firmware version window
+- SystemUI: Fix stuttering/jank related to media player control buttons
+- SystemUI: LyricTicker: Follow status bar padding
+- SystemUI: Reorder default QS Tiles
+- SystemUI: Ticker: Follow status bar padding
+- Evolver: Add left and right virtual buttons while typing (for old navbar layout)
+- Evolver: Add toggle for floating notification dismiss button
+- Evolver: GamingMode: Add option to disable menu overlay
+- Evolver: Launch EasterEgg activity when logo is clicked in about section
+- Evolver: Move rounded corners back to Themes category
+- Evolver: Remove toggle to disable charging animation
+- Evolver: Reorganize and add dividers
+- FOD: Adjust A12 FP icon stroke color
+- FODCircleView: Update animation position on circle showing when dreaming
+- Settings: Add our Easter Egg into our ROM version preference
+- Settings: Add resource network_5G_lte support
+- Settings: Combine Double Tap settings into a single fragment
+- Settings: Enable NetworkScan for 5G SA
+- Settings: Make IME button space optional
+- Settings: Make navbar visibility tweaks more distinct
+- SystemUI: Bring back AOSP Cellular tile icon
+- SystemUI: Update battery info every second when device is charging
