@@ -1,0 +1,43 @@
+Evolution X 5.9.3 | UNOFFICIAL
+Build date: 20/10/2021
+==================================================
+Credits:
+- Thanks to @SebaUbuntu for OSS trees
+- Thanks to @kubersharma001 for his trees
+- Thanks to @nullxception for his awesome kernel
+- Thanks to @fryevia, @alanndz, @Vrasteizz, and @Suzurui for their help
+- Thanks to @GengKapak for their support
+- Thanks to all my tester
+==================================================
+Device Changelog:
+- Fixed Instagram Stories
+- Migrate to Media codecs c2
+- Update Media seccomp_policy from coral-user-11-RP1A.200720.009-6720564
+- Kang Media blobs from LA.UM.9.1.r1-10600-SMxxx0.0
+- Import GPS stack from LA.UM.9.1.r1-07000-SMxxx0.0
+- Indicate WiFi driver supports batched scan
+- Remove and cleanup some WifiOverlaysVayu's overlays
+- Set vendor.display.defer_fps_frame_count
+- Other small changes
+
+Kernel Changelog:
+- Using Chaldea-Raiden as default kernel
+- Merged to 4.14.250
+- Merged CAF tag LA.UM.9.1.r1-11200-SMxxx0.0
+- Compiled with Proton clang
+- Many other changes
+==================================================
+ROM Changelog:
+- PixelPropsUtils: Update to October 2021 fingerprint
+- Add wifi standard to WifiEntry.ConnectedInfo
+- Nfc: Type confusion due to race condition on tag type change
+- QSMedia: Align media player buttons properly
+- Settings: Add Hotspot WPA3 Settings
+- Settings: Display WiFi Version number
+- Settings: Change Network detail string form TYPE to Type
+- SystemUI: Increase top padding of media switch
+- apn: Fix FreedomPop UK
+- apn: Update Vodafone NL
+- apn: Update giffgaff APN
+- fixup! missing changes haptic issues with gestural navigation
+- vendor: gms: Add pixel_experience_2021_midyear.xml
