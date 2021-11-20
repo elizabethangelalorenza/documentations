@@ -47,11 +47,13 @@ Flashing for DFE user with OSS vendor build (OSS):
 8. Enjoy!
 
 ### Notes: 
-* Recommended Firmware: 12.0.X.X or 12.5.X.X (choose your favorite firmware)
+* All my build (Evolution X) already include GApps, so no need to flash GApps again
+* Flashing firmware is not mandatory, that is "optional". No need to flash every flashing ROM
+* Firmware: 12.0.X.X or 12.5.X.X (choose your favorite firmware)
   - [**12.0.X.X-RJUIDXM**](https://sourceforge.net/projects/vayu-repository/files/Firmware/ID/)
   - [**12.5.X.X-RJUMIXM**](https://xiaomifirmwareupdater.com/firmware/vayu/)
   - [**Archive all region**](https://xiaomifirmwareupdater.com/archive/firmware/vayu/)
-* Recommended Recovery:
+* Recovery:
   - [**OrangeFox Recovery OFFICIAL**](https://orangefox.download/device/vayu)
   - [**TWRP UNOFFICIAL by Nebrassy**](https://forum.xda-developers.com/t/recovery-unofficial-teamwin-recovery-project.4269551/)
 * Disable Force Encryption:
