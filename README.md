@@ -1,5 +1,7 @@
 ## Welcome to my documentations
 
+This documentations based on my build (Evolution X) for Poco X3 Pro (vayu) device
+
 ### My Profile
  * [**GitHub**](https://github.com/elizabethangelalorenza)
  * [**Telegram**](https://t.me/elizabethangelalorenza)
