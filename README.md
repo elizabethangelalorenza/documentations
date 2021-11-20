@@ -9,6 +9,5 @@
  * [**Telegram Discussion**](https://t.me/GengKapakVayu)
  * [**Telegram Channel Update**](https://t.me/GengKapak)
 
-### Donate
- * [**PayPal**](https://www.paypal.me/destiny88end)
- * [**Saweria**](https://saweria.co/destiny88end)
+### Donation
+ * [**linktree**](https://linktr.ee/destiny88end)
