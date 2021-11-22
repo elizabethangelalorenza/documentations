@@ -1,0 +1,65 @@
+Evolution X 5.9.4 | UNOFFICIAL
+Build date: 22/11/2021
+==================================================
+Credits:
+- Thanks to @SebaUbuntu for OSS trees
+- Thanks to @kubersharma001 for his trees
+- Thanks to @nullxception for his awesome kernel
+- Thanks to @fryevia, @alanndz, @Vrasteizz, and @Suzurui for their help
+- Thanks to @GengKapak for their support
+- Thanks to all my tester
+==================================================
+Notes:
+- Dirty flash it's okay.
+- SafetyNet passed (without Magisk).
+- Already include GApps, no need to flash GApps again.
+- You can use any firmware version, 12.0.X or 12.5.X doesn't matter, it will boot. Choose your favorite firmware.
+- If you ask my firmware version, I'm using V12.0.1.0-RJUIDXM (the old one from Indonesian region).
+- From this build and next build, I will use (my own custom version), 5.9.3 is previous build and now is 5.9.4 (EvolutionX source still 5.9.3, they didn't change it yet).
+- Since this is unofficial build and EvolutionX team didn't change their version yet, so I think it's okay to change version (just to make it simple how to call it).
+- My Android 11 journey almost finished, (I think) my build stable AF (I hope).
+- Don't ask Android 12 yet, I'm busy!! :(
+==================================================
+Device Changelog:
+- Switch to user build
+- Switch to Redfin FP build and desc.
+- Set BOARD_SHIPPING_API_LEVEL to 30
+- Set PRODUCT_TARGET_VNDK_VERSION to 30
+- Add prebuilt GoogleCamera Go
+- Add back Touch Gaming Control on thermal profiles option
+- Update blobs from miui_VAYUGlobal_V12.5.5.0.RJUMIXM
+- Import Touchfeature from qssi-user-11-RKQ1.200826.002-V12.5.2.0.RJUMIXM-release-keys
+- Drop IFAA Manager support (Drop all IFAA/soter/Mlipay services)
+- Remove redundant display board flags
+- Remove ineffective BOARD_KERNEL_OFFSET variable
+- Remove duplicate delcaration of nv_mac service
+- Remove core dump/file generation references
+- Remove duplicate time_daemon definition
+- Remove modprobe as we don't build kernel modules
+- Properly label /sys/kernel/qvr_external_sensor/fd
+- Other small changes
+
+Kernel Changelog:
+- Using Chaldea as default kernel
+- Merged to 4.14.255
+- Compiled with Proton clang
+- Many other changes
+==================================================
+ROM Changelog:
+- Bumped to 5.9.4
+- November Security Patch
+- PixelPropsUtils: Update to November 2021 fingerprint
+- Revert "wifidisplay: restrict broadcast by the proper permission"
+- Revert "Add test cases for background startForeground() improvement."
+- Revert "Revert "BG-FGS-start while-in-use permission restriction improvement""
+- Fix parsing code parcelling errors
+- Bluetooth: Fix formatting in getAlias()
+- Backporting the change of ag/15629060 to rvc-dev
+- TIF: fix issue of using caller-aware methods after clearCallingIdentity()
+- Changed INTERACT_ACROSS_PROFILES appop to be set per UID
+- camera2: Fix exception swallowing in params classes createFromParcel
+- Grant MANAGE_APP_OPS_MODES to Managed Provisioning
+- Fix INTERACT_ACROSS_PROFILES appop issue for shared UIDs
+- libbinder: uptimeMillis returns int64_t! am: 3ba4963f5b am: 17aa765fd3 am: d666af6990
+- Add implementation for UserManager#getAllProfiles
+- OOBW in phNxpNciHal_process_ext_rsp
