@@ -2,30 +2,27 @@
 
 Clean Flash from MIUI:
 1. Reboot to Recovery
-2. Wipe Dalvik, Data and Cache in Advanced Wipe
-3. Flash ROM
-4. Flash DFE (optional)
-5. Format Data, type "yes" and press enter
-6. Reboot to System
-7. Enjoy!
+2. Flash ROM
+3. Flash DFE (optional)
+4. Format Data, type "yes" and press enter
+5. Reboot to System
+6. Enjoy!
 
 Clean Flash from Custom ROM with prebuilt vendor build (Non OSS):
 1. Reboot to Recovery
-2. Wipe Dalvik, Data and Cache in Advanced Wipe
-3. Flash ROM
-4. Flash DFE (optional)
-5. Format Data, type "yes" and press enter
-6. Reboot to System
-7. Enjoy!
+2. Flash ROM
+3. Flash DFE (optional)
+4. Format Data, type "yes" and press enter
+5. Reboot to System
+6. Enjoy!
 
 Clean Flash from other custom ROM with OSS vendor build (OSS):
 1. Reboot to Recovery
-2. Wipe Dalvik, Data and Cache in Advanced Wipe
-3. Flash ROM
-4. Flash DFE (optional)
-5. Format Data, type "yes" and press enter
-6. Reboot to System
-7. Enjoy!
+2. Flash ROM
+3. Flash DFE (optional)
+4. Format Data, type "yes" and press enter
+5. Reboot to System
+6. Enjoy!
 
 Dirty Flash from my build with OSS vendor build (OSS):
 1. Reboot to Recovery
@@ -36,14 +33,14 @@ Dirty Flash from my build with OSS vendor build (OSS):
 
 Flashing for DFE user with OSS vendor build (OSS):
 1. Reboot to Recovery
-2. Wipe Dalvik, Data and Cache in Advanced Wipe
-3. Flash ROM
-4. Flash DFE (mandatory)
-5. Reboot to System
-6. Enjoy!
+2. Flash ROM
+3. Flash DFE (mandatory)
+4. Reboot to System
+5. Enjoy!
 
 ### Notes:
-* Flash magisk after booted up. 
+* I recommended to flash magisk after booted up
+* You can't dirty flash a Non-OSS ROM over OSS ROM
 * All my build (Evolution X) already include GApps, so no need to flash GApps again
 * Flashing firmware is not mandatory, that is "optional". No need to flash every flashing ROM
 * Firmware: 12.0.X.X or 12.5.X.X (choose your favorite firmware)
