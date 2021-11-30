@@ -1,0 +1,126 @@
+Evolution X 6.0 | UNOFFICIAL
+Build date: 30/11/2021
+==================================================
+Credits:
+• Thanks to @kubersharma001 for his trees
+• Thanks to @nullxception for his awesome kernel
+• Thanks to @fryevia, @alanndz, @Vrasteizz, and @Suzurui for their help
+• Thanks to @GengKapak for their support
+• Thanks to all my tester
+==================================================
+Notes:
+• BETA build.
+• This is just start ._. 
+• SafetyNet passed (without Magisk).
+• Always backup before flashing this ROM.
+• Need to Clean Flash if you are from Android 11.
+• Already include GApps, no need to flash GApps again.
+• You can use any firmware version, 12.0.X or 12.5.X doesn't matter, it will boot. Choose your favorite firmware.
+• If you ask my firmware version, I'm using V12.0.1.0-RJUIDXM (the old one from Indonesian region).
+• Just ignore it, if you facing Force Close on Setup Wizard. That is source bug. At least you can boot to homescreen.
+==================================================
+Device Changelog:
+• Initial Android 12 release
+• Debloat some Google Apps
+• Add prebuilt GoogleCamera Go
+
+Kernel Changelog:
+• Using Chaldea as default kernel
+• Merged to 4.14.256
+• Compiled with AOSP clang
+==================================================
+ROM Changelog:
+• Android 12
+• Bumped to 6.0 Snow
+• November Security Patch
+• Delegate DeviceConfig permissions to custom provisioning service
+• Evolver: Add better battery styles and customizations
+• Evolver: Add toggle to disable battery estimates in QS
+• Evolver: Bring back old style mobile data indicators
+• Evolver: Remove extra array for network traffic
+• Evolver: Statusbar brightness control
+• Import SystemUIGoogleOverlay
+• Settings: Allow to customize notification led light
+• Settings: Fix notification led crashing notif led window
+• Settings: Forward port lock pattern grid size
+• Settings: Forward port pattern visibility settings
+• SystemUI: Add dual-tone light and dark themes for QS
+• SystemUI: Follow light/dark theme in quick settings
+• SystemUI: Initialize QS tiles in inactive state
+• SystemUI: QS: Add CPUInfo toggle tile
+• SystemUI: Remove nav bar background in QS customizer
+• SystemUI: Update Bluetooth battery level assets
+• Themes: Fix volume panel not following monet colors
+• core: Blacklist P21 experience system feature from Google Photos
+• Allow opening power menu when screen is off
+• Bring back Lock screen charging info
+• Bring back Pocket lock support
+• Bring back support for toggling Navbar and other navbar settings
+• Bring in Carrier Label support
+• Evolver: Add toggle to disable wired charging animation
+• Evolver: Double tap to wake on doze
+• Evolver: Make "Require unlocking to use sensitive QS tiles" optional
+• Implement burn-in protection for status/navbar
+• PhoneStatusBarPolicy: Show battery level for all devices
+• Settings: Add an option whether to show combined signal icons in status bar
+• Settings: Remove aosp battery percentage option
+• SystemUI: Add Compass tile
+• SystemUI: Add tile to show volume panel
+• base: dont call roundStorageSize on Storage API for getting sizes
+• device_config: Enable Adaptive Audio
+• Enable secondary user logout support by default
+• AudioService: Cancel old toasts when switching ringer mode
+• AudioService: Remove Analog Dock from fixed-volume devices
+• Evolver: Add back big dotted and big circle battery indicator
+• Increase the time limit for low performance fail
+• PixelPropsUtils: Add chrome into extra packages list
+• PixelPropsUtils: Use redfin props for some apps
+• PixelPropsUtils: Whitelist GoogleCamera
+• Port changes from SettingsGoogle
+• Port changes from SystemUIGoogle
+• Powermenu Torch: Allow simultaneous access
+• QuickStatusBarHeader: Add date & clock click actions
+• Screenrecord: Add an option to record for longer
+• Screenrecord: Add blinking stop dot and low quality options
+• Screenrecord: Make low quality bitrate scalable per device
+• Screenrecord: Save and load set preferences
+• Settings: Add back DataUsageSlice
+• Settings: Add vibration patterns from OOS
+• Settings: Allow choosing a custom vibration pattern
+• Settings: AppInfo: Add time spent in app from Wellbeing
+• Settings: Bring in missing lottie animations
+• Settings: Comment some overlays
+• Settings: Enable Quick Wallet settings for all devices with NFC
+• Settings: Fix data usage display on mobile panel
+• Settings: Force disable top level support preference
+• Settings: MobileDataPanel: Remove VoLTE slice
+• Settings: Optional haptic feedback on back gesture
+• Settings: navigation mode settings
+• SettingsGoogle: Don't translate fingerprint strings
+• SettingsLib: Update 4G+ icon to Silk design as well
+• Sharesheet: Set max ranked items to 8
+• SystemUI: Adapt screen record dialog switches UI to 12
+• SystemUI: Add support for persistent usb drive notification
+• SystemUI: AnimatableClockView: set color first and then animate
+• SystemUI: Dismiss keyguard on boot if disabled by current profile
+• SystemUI: Fix uneven DND icon padding in status bar
+• SystemUI: Kill fake navbar once again
+• SystemUI: QS: SoundTile: Don't toggle DND
+• SystemUI: Update SoundTile
+• SystemUIGoogle: Fix injection of KeyguardIndicationControllerGoogle
+• SystemUIGoogleOverlay: unset camera gesture package
+• TwilightService: Save and use last fetched location
+• TwilightService: Use temporary TwilightState when location is not available
+• base: Add reset_stats to settings specific permissions
+• base: FPS Info: Make new formatting works with old kernel
+• base: Improve FPS Info output formatting and performance
+• base: Remove aosp's 'show battery percentage' setting
+• base: dont call roundStorageSize on Storage API for getting sizes
+• camera: allow GPU usage for isSurfaceForHwVideoEncoder
+• data: Update PackageInstaller/PermissionController whitelist
+• fixup! SystemUI: Add status bar NFC icon
+• hwui: Silence Davey logs for now
+• keyguard: Do not trigger a wake up when hiding lockscreen
+• telephony: show ICCID by default for all
+• vendor: Update props from SD1A.210817.015.A4
+• vendor: rro_overlays: Add back missed prefs animations
