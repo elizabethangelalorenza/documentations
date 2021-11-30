@@ -48,8 +48,9 @@ Flashing for DFE user with OSS vendor build (OSS):
   - [**12.5.X.X-RJUMIXM**](https://xiaomifirmwareupdater.com/firmware/vayu/)
   - [**Archive all region**](https://xiaomifirmwareupdater.com/archive/firmware/vayu/)
 * Recovery:
+  - [**TWRP Recovery OFFICIAL**](https://dl.twrp.me/vayu/)
+  - [**TWRP UNOFFICIAL by Nebrassy**](https://androidfilehost.com/?fid=14943124697586359826)
   - [**OrangeFox Recovery OFFICIAL**](https://orangefox.download/device/vayu)
-  - [**TWRP UNOFFICIAL by Nebrassy**](https://forum.xda-developers.com/t/recovery-unofficial-teamwin-recovery-project.4269551/)
 * Disable Force Encryption:
   - [**Support prebuilt Vendor (Non OSS) only**](https://sourceforge.net/projects/vayu-repository/files/Additional/DisableForceEncryption/DisableForceEncryption_PocoX3Pro_MIUI_Vendor.zip/download)
   - [**Support OSS Vendor (OSS) only**](https://sourceforge.net/projects/vayu-repository/files/Additional/DisableForceEncryption/DisableForceEncryption_PocoX3Pro_OSS_Vendor.zip/download)
