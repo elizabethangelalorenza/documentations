@@ -54,5 +54,5 @@ Flashing for DFE user with OSS vendor build (OSS):
 * Disable Force Encryption:
   - [**Support prebuilt Vendor (Non OSS) only**](https://sourceforge.net/projects/vayu-repository/files/Additional/DisableForceEncryption/DisableForceEncryption_PocoX3Pro_MIUI_Vendor.zip/download)
   - [**Support OSS Vendor (OSS) only**](https://sourceforge.net/projects/vayu-repository/files/Additional/DisableForceEncryption/DisableForceEncryption_PocoX3Pro_OSS_Vendor.zip/download)
-  - [**support both Non OSS and OSS vendor**](https://orangefox.download/device/vayu)
+  - [**Support both Non OSS and OSS vendor**](https://sourceforge.net/projects/vayu-repository/files/Additional/DisableForceEncryption/DisableForceEncryption_PocoX3Pro_MIUI-OSS_Vendor.zip/download)
 * Report bug on [**Group Support**](https://t.me/GengKapakVayu)
