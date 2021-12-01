@@ -2,45 +2,50 @@
 
 Clean Flash from MIUI:
 1. Reboot to Recovery
-2. Flash ROM
-3. Flash DFE (optional)
-4. Format Data, type "yes" and press enter
-5. Reboot to System
-6. Enjoy!
+2. Wipe Dalvik/ART Cache, Data, and Cache on Advanced Wipe
+3. Flash ROM
+4. Flash DFE (optional)
+5. Format Data, type "yes" and press enter
+6. Reboot to System
+7. Enjoy!
 
 Clean Flash from Custom ROM with prebuilt vendor build (Non OSS):
 1. Reboot to Recovery
-2. Flash ROM
-3. Flash DFE (optional)
-4. Format Data, type "yes" and press enter
-5. Reboot to System
-6. Enjoy!
+2. Wipe Dalvik/ART Cache, Data, and Cache on Advanced Wipe
+3. Flash ROM
+4. Flash DFE (optional)
+5. Format Data, type "yes" and press enter
+6. Reboot to System
+7. Enjoy!
 
 Clean Flash from other custom ROM with OSS vendor build (OSS):
 1. Reboot to Recovery
-2. Flash ROM
-3. Flash DFE (optional)
-4. Format Data, type "yes" and press enter
-5. Reboot to System
-6. Enjoy!
+2. Wipe Dalvik/ART Cache, Data, and Cache on Advanced Wipe
+3. Flash ROM
+4. Flash DFE (optional)
+5. Format Data, type "yes" and press enter
+6. Reboot to System
+7. Enjoy!
 
 Dirty Flash from my build with OSS vendor build (OSS):
 1. Reboot to Recovery
 2. Flash ROM
 3. Flash DFE (optional)
-4. Reboot to System
-5. Enjoy!
+4. Wipe Dalvik/ART Cache
+5. Reboot to System
+6. Enjoy!
 
 Flashing for DFE user with OSS vendor build (OSS):
 1. Reboot to Recovery
 2. Flash ROM
 3. Flash DFE (mandatory)
-4. Reboot to System
-5. Enjoy!
+4. Wipe Dalvik/ART Cache
+5. Reboot to System
+6. Enjoy!
 
 ### Notes:
 * I recommended to flash magisk after booted up
-* You can't dirty flash a Non-OSS ROM over OSS ROM
+* You can't dirty flash Non-OSS ROM over OSS ROM
 * All my build (Evolution X) already include GApps, so no need to flash GApps again
 * Flashing firmware is not mandatory, that is "optional". No need to flash every flashing ROM
 * Firmware: 12.0.X.X or 12.5.X.X (choose your favorite firmware)
@@ -54,5 +59,5 @@ Flashing for DFE user with OSS vendor build (OSS):
 * Disable Force Encryption:
   - [**Support prebuilt Vendor (Non OSS) only**](https://sourceforge.net/projects/vayu-repository/files/Additional/DisableForceEncryption/DisableForceEncryption_PocoX3Pro_MIUI_Vendor.zip/download)
   - [**Support OSS Vendor (OSS) only**](https://sourceforge.net/projects/vayu-repository/files/Additional/DisableForceEncryption/DisableForceEncryption_PocoX3Pro_OSS_Vendor.zip/download)
-  - [**Support both Non OSS and OSS vendor**](https://sourceforge.net/projects/vayu-repository/files/Additional/DisableForceEncryption/DisableForceEncryption_PocoX3Pro_MIUI-OSS_Vendor.zip/download)
+  - [**Support both Non OSS and OSS Vendor**](https://sourceforge.net/projects/vayu-repository/files/Additional/DisableForceEncryption/DisableForceEncryption_PocoX3Pro_MIUI-OSS_Vendor.zip/download)
 * Report bug on [**Group Support**](https://t.me/GengKapakVayu)
