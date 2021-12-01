@@ -12,4 +12,4 @@ This documentations based on my build (Evolution X) for Poco X3 Pro (vayu) devic
  * [**Telegram Channel Update**](https://t.me/GengKapak)
 
 ### Donation
- * [**linktree**](https://linktr.ee/destiny88end)
+ * [**linktree**](https://linktr.ee/destiny88end) (Include Dana, Saweria, and PayPal)
