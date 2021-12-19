@@ -27,6 +27,15 @@ Clean Flash from other custom ROM with OSS vendor build (OSS):
 6. Reboot to System
 7. Enjoy!
 
+Clean Flash from Android 11 ROM with OSS vendor build (OSS):
+1. Reboot to Recovery
+2. Wipe Dalvik/ART Cache, Data, and Cache on Advanced Wipe
+3. Flash ROM
+4. Flash DFE (optional)
+5. Format Data, type "yes" and press enter
+6. Reboot to System
+7. Enjoy!
+
 Dirty Flash from my build with OSS vendor build (OSS):
 1. Reboot to Recovery
 2. Flash ROM
