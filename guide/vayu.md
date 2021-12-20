@@ -18,7 +18,7 @@ Clean Flash from Custom ROM with prebuilt vendor build (Non OSS):
 6. Reboot to System
 7. Enjoy!
 
-Clean Flash from other custom ROM with OSS vendor build (OSS):
+Clean Flash from custom ROM with OSS vendor build (OSS):
 1. Reboot to Recovery
 2. Wipe Dalvik/ART Cache, Data, and Cache on Advanced Wipe
 3. Flash ROM
@@ -36,7 +36,7 @@ Clean Flash from Android 11 ROM with OSS vendor build (OSS):
 6. Reboot to System
 7. Enjoy!
 
-Dirty Flash from my build with OSS vendor build (OSS):
+Dirty Flash from my build (Evolution X) with OSS vendor build (OSS):
 1. Reboot to Recovery
 2. Flash ROM
 3. Flash DFE (optional)
@@ -53,10 +53,12 @@ Flashing for DFE user with OSS vendor build (OSS):
 6. Enjoy!
 
 ### Notes:
-* I recommended to flash magisk after booted up
-* You can't dirty flash Non-OSS ROM over OSS ROM
-* All my build (Evolution X) already include GApps, so no need to flash GApps again
-* Flashing firmware is not mandatory, that is "optional". No need to flash every flashing ROM
+* I recommended to flash Magisk after booted up.
+* You can't dirty flash Non-OSS ROM over OSS ROM.
+* If you are DFE User, you must always to flash DFE file .zip after flashing ROM (before reboot to system).
+* What if I forgot to flash DFE and rebooted? Say goodbye to your data.
+* All my build (Evolution X) already include GApps, so no need to flash GApps again.
+* Flashing firmware is not mandatory, that is "optional". No need to flash every flashing ROM.
 * Firmware: 12.0.X.X or 12.5.X.X (choose your favorite firmware)
   - [**12.0.X.X-RJUIDXM**](https://sourceforge.net/projects/vayu-repository/files/Firmware/ID/)
   - [**12.5.X.X-RJUMIXM**](https://xiaomifirmwareupdater.com/firmware/vayu/)
