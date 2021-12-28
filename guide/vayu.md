@@ -54,13 +54,16 @@ Flashing for DFE user with OSS vendor build (OSS):
 
 ### Notes:
 * I recommended to flash Magisk after booted up.
-  - [**Magisk v23.0 Stable**](https://github.com/topjohnwu/Magisk/releases/tag/v23.0)
-  - [**Magisk Canary**](https://raw.githubusercontent.com/topjohnwu/magisk-files/canary/app-debug.apk)
 * You can't dirty flash Non-OSS ROM over OSS ROM.
 * If you are DFE User, you must always to flash DFE file .zip after flashing ROM (before reboot to system).
 * What if I forgot to flash DFE and rebooted? Say goodbye to your data.
 * All my build (Evolution X) already include GApps, so no need to flash GApps again.
 * Flashing firmware is not mandatory, that is "optional". No need to flash every flashing ROM.
+
+### Important Link:
+* Magisk:
+  - [**Magisk v23.0 Stable**](https://github.com/topjohnwu/Magisk/releases/tag/v23.0)
+  - [**Magisk Canary**](https://raw.githubusercontent.com/topjohnwu/magisk-files/canary/app-debug.apk)
 * Firmware: 12.0.X.X or 12.5.X.X (choose your favorite firmware)
   - [**12.0.X.X-RJUIDXM**](https://sourceforge.net/projects/vayu-repository/files/Firmware/ID/)
   - [**12.5.X.X-RJUMIXM**](https://xiaomifirmwareupdater.com/firmware/vayu/)
