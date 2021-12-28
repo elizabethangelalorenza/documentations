@@ -54,6 +54,8 @@ Flashing for DFE user with OSS vendor build (OSS):
 
 ### Notes:
 * I recommended to flash Magisk after booted up.
+  - [**Magisk v23.0 Stable**](https://github.com/topjohnwu/Magisk/releases/tag/v23.0)
+  - [**Magisk Canary**](https://raw.githubusercontent.com/topjohnwu/magisk-files/canary/app-debug.apk)
 * You can't dirty flash Non-OSS ROM over OSS ROM.
 * If you are DFE User, you must always to flash DFE file .zip after flashing ROM (before reboot to system).
 * What if I forgot to flash DFE and rebooted? Say goodbye to your data.
