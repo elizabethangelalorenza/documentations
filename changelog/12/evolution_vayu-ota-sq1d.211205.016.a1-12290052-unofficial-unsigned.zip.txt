@@ -1,0 +1,136 @@
+Evolution X 6.0 | UNOFFICIAL
+Build date: 29/12/2021
+==================================================
+Credits:
+• Thanks to @kubersharma001 for his trees
+• Thanks to @nullxception for his awesome kernel
+• Thanks to @fryevia, @alanndz, @Vrasteizz, and @Suzurui for their help
+• Thanks to @GengKapak for their support
+• Thanks to all my tester
+==================================================
+Notes:
+• SafetyNet passed (without Magisk).
+• Already include GApps, no need to flash GApps again.
+• Always backup your data before flashing ROM to avoid any cases.
+• Need to Clean Flash if you are from Android 11.
+• This build will boot with Dirty Flash from previous build, but I will suggest you to Clean Flash, bcz I made many changes in this build.
+• You can use any firmware version, 12.0.X or 12.5.X doesn't matter, it will boot. Choose your favorite firmware.
+• If you ask my firmware version, I'm using V12.0.1.0-RJUIDXM (the old one from Indonesian region).
+==================================================
+Device Changelog:
+• Adapt DeviceParts to S style
+ (Ambient Display, Thermal Profiles, Touch Control, Dirac, Clear Speaker, Haptic Level, and LCD Features)
+• DeviceParts Improvements
+• Remove KCAL Support (We are using Colors setting from ROM instead)
+• Update some sepolicy and overlay
+• Update to December Redfin FP build and desc.
+• Import QTI Perf learning module configs 
+• Add custom boost extension for scroll handling
+• Add custom mode extension for handling app launch 
+• Update mi thermald from V12.5.7.0.RJUMIXM
+• Many other changes
+
+Kernel Changelog:
+• Using Chaldea as default kernel
+• Merged to 4.14.258
+• Merged Latest CAF LA.UM.9.1.r1-11400-SMxxx0.0
+• Merged Audio driver from CAF LA.UM.9.1.r1-11400-SMxxx0.0
+• Switch Touchscreen firmware to V12.5.5.0.RJUIDXM prod for more stability
+• Resync event emmiter to the stock MiCode on Touchscreen
+• Bring back <60 values from dfps list
+• Compiled with AOSP Clang
+• Many other changes
+==================================================
+ROM Changelog:
+• Bumped to 6.0 Snow
+• December Security Patch
+• Allow changing monet settings from The Evolver
+• Evolver: AODSchedule: Add support for mixed time & sun modes
+• Evolver: Adapt master switch layout to A12
+• Evolver: Add Ambient Edge Lighting settings
+• Evolver: Add DND & Rate settings to flash on call
+• Evolver: Add Flashlight blink on incoming calls
+• Evolver: Add back theming stuff
+• Evolver: Allow hiding notification headers
+• Evolver: Allow scheduling always on display
+• Evolver: Allow to flash on call only when entirely silent
+• Evolver: Clean up power menu options
+• Fix an issue in NPMS blockedReasons computation logic
+• Fix the case where restricted mode allowed reasons are ignored
+• PixelPropsUtils: Spoof Pixel XL for Google Photos
+• PixelPropsUtils: Whitelist Google Dialer
+• Re-implement Volume Long Press Skip Tracks feature
+• Screenrecord: Update custom settings dialog drawables
+• Settings: Allow customizing volume dialog timeout
+• Settings: Allow hiding navbar
+• Settings: Improve OverlayCategoryPreferenceController for icon packs
+• Settings: Make font overlay persistent across reboots
+• Settings: OverlayCategoryPreferenceController: Sort overlays by name
+• Settings: allow changing the length of gesture navbar
+• SystemUI: Don't confuse rotation with orientation
+• SystemUI: Fix NetworkTraffic UI on expanded QS
+• SystemUI: Use DT2W setting also to wake from AOD
+• SystemUI: Use new privacy indicators for location
+• TtsEngines: avoid crashes caused by null engine name
+• base: TtsEngines: fix yet another NPE
+• fonts: Redo custom fonts
+• fonts: update with SD1A Raven
+• overlays: declare the right overlay category
+• styles: Use user fonts for Material UI themes
+• ActivityThread: Remove Failed to find provider info logspam
+• Allow additional padding for center clock
+• Camera: Fix the memory leak caused during HFR mode
+• Evolver: Add VoWiFi icon support
+• Evolver: Add ability to toggle bluetooth battery level
+• Evolver: Add case to quick pull down status bar anywhere
+• Evolver: Add optional VoWiFi icon styles
+• Evolver: Allow hiding call strength icons
+• Evolver: Allow to suppress notifications sound/vibration if screen is on
+• NavigationBar: Prevent a rare crash
+• NetworkProviderSettings: Prevent Wifi Manager NPE
+• NotificationPanelViewController: Fix DT2S gesture handling
+• NotificationPanelViewController: set FLAG_IMMUTABLE for edge lightning
+• PackageInfo: Optimize ApplicationInfo creation
+• Permissions: Grant Mediascanner access permissions to external storage
+• PixelPropsUtils: Invite streaming apps to the party
+• PixelPropsUtils: Spoof Pixel XL for Samsung wearables
+• PowerUI: Mute logcat spam
+• QSPanel: Don't crash when not using media player
+• Reduce NotificationHistoryDatabase logspam
+• Settings: Add custom vibration intensity preferences
+• Settings: Align user avatar with homepage title
+• Settings: Bring back Double tap to trigger doze
+• Settings: DoubleTapGesture: Use new material-you illustration preference
+• Settings: Improve protected sensitive info in about phone
+• Settings: Make Quick Unlock compatible with long PIN/Password
+• Settings: VolumeMusicControl: Use new material-you illustration preference
+• SystemUI: Fix NPE in NotificationPanelViewController
+• SystemUI: Fix signal bar icon overlay issue
+• SystemUI: No longer use DT2W setting to wake from AOD (resolves battery drain issues)
+• SystemUI: Reduce screenshot dismiss delay to 2 seconds
+• SystemUI: Restart SystemUI on changing combined signal icons
+• SystemUI: Update keyguard clock metrics for GSans Clock font
+• SystemUI: follow colorSurface for alertslider background
+• SystemUI: theme: Override modulated dark QS background color
+• SystemUI: updated bluetooth icons from oos
+• SystemUI: use google sans font for lockscreen clock (requires GSans Magisk module)
+• SystemUIGoogle: Update from SQ1D.211205.016.A1
+• Toast: fix layer leak
+• ViewRootImpl:Fix CountDownLatch.await block
+• config: Disable Async MTE on System Server
+• core: check if the logical light is null before using it
+• device_config: Import missing configs from ProtonAOSP
+• device_config: Show setting to disable location indicators
+• device_config: Update Live Caption configs for Pixel 6
+• fwb: silence statx boot spam
+• overlay: SystemUI: Use Monet colors for power menu
+• remove duplicate hide battery feature from tuner
+• services: fonts: use a simple sha512 hash based file verification system
+• timedetector: Disable lower bound check
+• vendor: Add custom grayscale icons and maps for PixelLauncher
+• vendor: apns: Add auth_type explanation
+• vendor: apns: Correct Telia
+• vendor: apns: Fix wrong IPV4 protocols
+• vendor: apns: Remove unused "spn" attribute
+• vendor: charger: Import latest offline charging animation
+• Update translations
