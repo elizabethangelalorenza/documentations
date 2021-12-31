@@ -1,0 +1,68 @@
+Evolution X 5.9.5 | UNOFFICIAL
+Build date: 31/12/2021
+==================================================
+Credits:
+- Thanks to @kubersharma001 for his trees
+- Thanks to @nullxception for his awesome kernel
+- Thanks to @fryevia, @alanndz, @Vrasteizz, and @Suzurui for their help
+- Thanks to @GengKapak for their support
+- Thanks to all my tester
+==================================================
+Notes:
+- Dirty flash it's okay.
+- SafetyNet should passed (without Magisk).
+- Already include GApps, no need to flash GApps again.
+- You can use any firmware version, 12.0.X or 12.5.X doesn't matter, it will boot. Choose your favorite firmware.
+- If you ask my firmware version, I'm using V12.0.1.0-RJUIDXM (the old one from Indonesian region).
+
+- THIS IS LAST ANDROID 11 BUILD FROM ME.
+- I WILL NOT RESPOND ANY REPORT BUG ABOUT ANDROID 11 BUILD.
+- ENJOY !! SEE YOU IN ANDROID 12 :)
+
+  Happy New Year for everyone!!
+==================================================
+Device Changelog:
+- Update to December Redfin FP build and desc.
+- Increase BootCompletedReceiver priority on parts
+- Import QTI Perf learning module configs 
+- Add custom boost extension for scroll handling
+- Add custom mode extension for handling app launch 
+- Update mi thermald from V12.5.7.0.RJUMIXM
+- Enable hvdcp_opti 
+- Set SSR restart_level in init.qcom.rc
+- Remove ZRAM cold page writeback file 
+- Move swapon_all and set swappiness on boot_complete
+- Move init.rc scripts and Imports to init.qcom.rc
+- Other small changes
+
+Kernel Changelog:
+- Using Chaldea as default kernel
+- Merged to 4.14.260
+- Merge Latest CAF LA.UM.9.1.r1-11400-SMxxx0.0
+- Merge Audio driver from CAF LA.UM.9.1.r1-11400-SMxxx0.0
+- Switch Touchscreen firmware to V12.5.5.0.RJUIDXM prod for more stability
+- Resync event emmiter to the stock MiCode on Touchscreen
+- Bring back <60 values from dfps list
+- Compiled with Proton clang
+- Many other changes
+==================================================
+ROM Changelog:
+- Bumped to 5.9.5
+- December Security Patch
+- PixelPropsUtils: Update to raven-user 12 SQ1D.211205.016.A1 7957957
+- BluetoothSecurity: Add BLUETOOTH_PRIVILEGED permission for pairing dialog
+- C2SoftMp3Dec: fix OOB write in output buffer
+- Fix heap-buffer-overflow in MPEG4Extractor am: d13a4efc7a
+- Handle cases where order isn't a multiple of dimension
+- osi: Prevent memory allocations with MSB set
+- An enum is initialized as zero if it doesn't have default value
+- osi: Prevent memory allocations with MSB set
+- OOBW due to incorrect error handling
+- Fix use-after-free bug in FuseDaemon
+- Fix issue with call log last modified not being updated.
+- Fix NPE on getTitle()
+- Fix serialization bug in GpsNavigationMessage
+- Do not show the notification footer until the user is set up.
+- DO NOT MERGE KeyStore ChunkedStreamer must tolerate update consuming 0 bytes.
+- Disallow overlays for ResolverActivity
+- Import some translations
