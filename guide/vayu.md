@@ -72,5 +72,6 @@ Flashing for DFE user with OSS vendor build (OSS):
   - [**TWRP Recovery OFFICIAL**](https://dl.twrp.me/vayu/)
   - [**OrangeFox Recovery OFFICIAL**](https://orangefox.download/device/vayu)
 * Disable Force Encryption (DFE) for Custom ROM AOSP (only):
-  - [**Support both Non OSS and OSS Vendor**](https://sourceforge.net/projects/vayu-repository/files/Additional/DisableForceEncryption/DisableForceEncryption_PocoX3Pro_MIUI-OSS_Vendor.zip/download)
+  - [**dynDFE_v1.0**](https://sourceforge.net/projects/vayu-repository/files/Additional/dynDFE/dynDFE_v1.0_vayu.zip/download)
+  - [**dynDFE_v2.0**](https://sourceforge.net/projects/vayu-repository/files/Additional/dynDFE/dynDFE-v2.0_vayu.zip/download)
 * Report bug on [**Group Support**](https://t.me/GengKapakVayu)
