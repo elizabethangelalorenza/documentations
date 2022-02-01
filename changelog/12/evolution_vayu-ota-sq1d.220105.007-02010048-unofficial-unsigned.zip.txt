@@ -1,0 +1,101 @@
+Evolution X 6.0 | UNOFFICIAL
+Build date: 01/02/2022
+==================================================
+Credits:
+• Thanks to @kubersharma001 for his trees
+• Thanks to @nullxception for his awesome kernel
+• Thanks to @fryevia, @alanndz, @Vrasteizz, @Genkzsz11, and @Suzurui for their help
+• Thanks to @nhudda for providing server
+• Thanks to @GengKapak for their support
+• Thanks to all my loyal tester
+==================================================
+Notes:
+• OSS based.
+• SELinux Enforcing.
+• Play Store is certified.
+• SafetyNet passed (without Magisk).
+• Already include GApps, no need to flash GApps again.
+• Need to Clean Flash if you are coming from Android 11.
+• This build will boot with Dirty Flash from previous build.
+• Always backup your data before flashing this ROM to avoid any cases.
+• If you are DFE User, don't forget to flash DFE file .zip after flashing ROM (before reboot to system).
+• Flashing firmware is not mandatory, that is "optional". No need to flash every flashing ROM.
+• You can use any firmware version, 12.0.X or 12.5.X doesn't matter, it will boot. Choose your favorite firmware.
+• If you ask my firmware version, I'm using V12.0.4.0.RJUMIXM currently.
+
+== THIS IS LAST UNOFFICIAL BUILD ==
+== NEXT UPDATE IS OFFICIAL BUILD ==
+==================================================
+Device Changelog:
+• Update IMS libs from alioth-qssi-user-12-SKQ1.210908.001
+• Limit Netflix and YouTube to 60Hz only 
+• Many other changes
+
+Kernel Changelog:
+• Using Chaldea as default kernel
+• Merge Linux stable 4.14.264
+• Fixed slow charging on ln8000 charger type
+• Allow filtering of key events for FPC1020 fingerprint type
+• Compiled with AOSP Clang 14.0.1
+• Many other changes
+==================================================
+ROM Changelog:
+• Update ROM sources
+• Evolver: Add dividers to some preferences
+• Evolver: Add new black theme
+• KeyguardIndication: Fix glitchy charging info on lockscreen
+• Switch to a better Network Traffic implementation
+• DefaultPermissionGrant: Fix google search crash
+• Evolver: Allow disabling ripple effect on unlock
+• Evolver: Move Monet settings to separate fragment
+• FingerprintManager: Fix NPE due to sensorProps
+• Navbar: Fix issue where pill disappears in gestural mode
+• Settings: Add missing android title for top_level_settings
+• Settings: Add LTE only setting
+• Settings: Cache current context before creating a new user
+• Settings: Drawables: Dark mode support for app installation restriction icon
+• Settings: NFC: Get outer NFC preference to listen for changes
+• Settings: Remove back gesture height settings
+• apns: Add DITO PH
+• apns: Add Unifi
+• Evolver: Launch default music player on headset connect
+• base: Fix NPE in ImageWallpaper
+• SystemUI: FPSInfoService: initialize fpsInfoView without posting in handler
+• overlay: SystemUI: Remove power menu shadow
+• Deprecate LiveDisplay and LOS FOD stuff
+• PixelPropsUtils: Whitelist ARCore
+• SystemUI: rewrite fps info tile in kt and bind service to the tile
+• Settings: Import missing lottie swipe fingerprint from redfin
+• SystemUI: rewrite FPSInfoService in kt from scratch
+• UdfpsResources: Add more UDFPS icons
+• UdfpsResources: Convert remaining png to webp
+• apps: Build Repainter integration service
+• overlay: Add config for Repainter integration service
+• overlay: core: Use accent color for progress bar background
+• sepolicy: Nuke LiveDisplay and Lineage FOD
+• sepolicy: Resolve turbo_adapter denial
+• Evolver: Rename FP pressed color default to Cyan
+• GamingMode: LockGestureTile: load state from preferences in init
+• GamingMode: remove overlay menu switch
+• overlay: core: Add chroma to light surface highlight color
+• Battery Styles: Set proper battery style on init
+• Fix incorrect SID matching for bio prompts
+• Evolver: Remove Expanded option for network traffic
+• Evolver: Themes: Rearrange the categories
+• IconPackKaiAndroidOverlay: fix for carriers using 5 bars of signal
+• QuickSettings: Use tick instead of vibrate for normal tap on qs tile
+• SystemUI: Limit keyguard charging stats updates
+• SystemUI: Keyguard: Check for a null errString
+• SystemUI: Make sure notification icons are sticked to the left
+• SystemUI: use DOUBLE_TAP_TO_WAKE setting also for wake from aod
+• base: InputManager: handle housed stylus event
+• gms: Remove non-battery TurboAdapter
+• neko/Cat: Mark FLAG_IMMUTABLE PendingIntent with FLAG_MUTABLE
+• overlays: Add acherus icon pack
+• PixelPropsUtils: Remove GamesProps
+• RecoverySystem: make the package readable before checking capex
+• SystemUI: PeopleSpaceWidgetManager: don't spam logcat
+• SystemUI: ic_brightness_*: drawables get surface color
+• base: AudioService: bail out if ringer mode is not recognized
+• fonts: Bring back more font overlays
+• Update translations
