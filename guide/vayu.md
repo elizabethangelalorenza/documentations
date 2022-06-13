@@ -63,7 +63,7 @@ Flashing for DFE user with OSS vendor build (OSS):
 ### Important Link:
 * Magisk:
   - [**Magisk v23.0 Stable (Magisk Hide)**](https://github.com/topjohnwu/Magisk/releases/tag/v23.0)
-  - [**Magisk v24.3 Stable (Zygisk)**](https://github.com/topjohnwu/Magisk/releases/tag/v24.3)
+  - [**Magisk v25.0 Stable (Zygisk)**](https://github.com/topjohnwu/Magisk/releases/tag/v25.0)
   - [**Magisk Canary**](https://raw.githubusercontent.com/topjohnwu/magisk-files/canary/app-debug.apk)
 * Firmware: 12.0.X.X or 12.5.X.X (choose your favorite firmware)
   - [**12.0.X.X-RJUIDXM**](https://sourceforge.net/projects/vayu-repository/files/Firmware/ID/)
